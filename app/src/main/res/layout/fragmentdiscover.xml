@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+
+        >
+
+        <Button
+            android:id="@+id/btnmaruti"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/marutifinal"
+            android:background="@color/colorAccent"
+            android:text="MARUTI SUZUKI"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+
+        <Button
+
+            android:id="@+id/btntoyota"
+
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/toyotafinal"
+            android:text="TOYOTA"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+        <Button
+            android:id="@+id/btnmahindra"
+
+            android:padding="8dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mahindrafinal"
+            android:background="@color/colorAccent"
+            android:text="MAHINDRA"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        >
+        <Button
+            android:id="@+id/btntata"
+
+            android:padding="10dp"
+            android:layout_marginTop="2dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tatalogofinal"
+            android:background="@color/colorAccent"
+            android:text="TATA"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnhyundai"
+
+            android:layout_marginTop="2dp"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/hyundai19"
+            android:background="@color/colorAccent"
+            android:text="HYUNDAI"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+
+            />
+        <Button
+            android:id="@+id/btnford"
+
+            android:layout_marginTop="2dp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/fordfinal"
+            android:background="@color/colorAccent"
+            android:text="FORD"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        >
+        <Button
+            android:id="@+id/btnbmw"
+
+            android:layout_marginTop="2dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bmwfinal"
+            android:background="@color/colorAccent"
+            android:text="BMW"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+            />
+
+        <Button
+            android:id="@+id/btnskoda"
+
+            android:layout_marginTop="2dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/skodafinal"
+            android:background="@color/colorAccent"
+            android:text="SKODA"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+            />
+        <Button
+            android:id="@+id/btnmercedes"
+
+            android:layout_marginTop="2dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mercedesbenzfinal"
+            android:background="@color/colorAccent"
+            android:text="MERCEDES-BENZ"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        >
+        <Button
+            android:id="@+id/btnfiat"
+
+            android:layout_marginTop="2dp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/fiatfinal"
+            android:background="@color/colorAccent"
+            android:text="FIAT"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+            />
+
+        <Button
+            android:id="@+id/btnvolkswagen"
+
+            android:layout_marginTop="3dp"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/volkswagenfinal"
+            android:background="@color/colorAccent"
+            android:text="VOLKSWAGEN"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+        <Button
+            android:id="@+id/btnaudi"
+
+            android:layout_marginTop="2dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/audifinal"
+            android:background="@color/colorAccent"
+            android:text="AUDI"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        >
+        <Button
+            android:id="@+id/btnmitsubishi"
+
+            android:layout_marginTop="2dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mitsubishifinal"
+            android:background="@color/colorAccent"
+            android:text="MITSUBISHI"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+            />
+
+
+        <Button
+            android:id="@+id/btnrenault"
+
+            android:layout_marginTop="2dp"
+
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/renaultfinal"
+            android:background="@color/colorAccent"
+            android:text="RENAULT"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+        <Button
+            android:id="@+id/btnnisaan"
+            android:paddingTop="8dp"
+            android:layout_marginTop="2dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/nisaanfinal"
+            android:background="@color/colorAccent"
+            android:text="NISSAN"
+            android:textSize="10dp"
+            android:textColor="#9903A9F4"
+
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

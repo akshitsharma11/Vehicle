@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+
+
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        >
+
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Vehicle Details:"
+            android:textColor="#111010"
+            android:textSize="15dp"
+            />
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textview1"
+    android:background="@drawable/layoutbackground"
+    android:id="@+id/relativelayout1"
+    android:layout_marginTop="15dp"
+    >
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:id="@+id/ll2"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvno"
+                android:text="Registering Authority-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+    <TextView
+        android:textSize="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="8dp"
+        android:id="@+id/txtrtooffice"
+        android:textColor="#1D1D1D"
+        />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/ll2"
+            android:id="@+id/ll3"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rto"
+                android:text="Owner Name-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+    <TextView
+        android:textSize="20dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="8dp"
+
+        android:id="@+id/txtownername"
+        android:textColor="#1D1D1D"
+        />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll3"
+            android:orientation="vertical"
+            android:id="@+id/ll4"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtro"
+                android:text="Maker Model(Fuel Type)-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+    <TextView
+        android:textSize="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/txtvehiclename"
+        android:textColor="#1D1D1D"
+
+        />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/ll4"
+            android:id="@+id/ll5"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vexpiry"
+            android:text="Expiry Date-"
+            android:textColor="#75111010"
+            android:textSize="16dp"
+            />
+    <TextView
+        android:textSize="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/txtexpiry"
+        android:textColor="#1D1D1D"
+
+        />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll5"
+            android:orientation="vertical"
+            android:id="@+id/ll6"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vinsurance"
+                android:text="Insurance Upto-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+    <TextView
+        android:textSize="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/txtfinance"
+        android:textColor="#1D1D1D"
+
+        />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+        <TextView
+
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bordersofvehicleno"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/txtvehicleno"
+            android:textColor="#1D1D1D"
+            />
+    </RelativeLayout>
+
+
+</ScrollView>

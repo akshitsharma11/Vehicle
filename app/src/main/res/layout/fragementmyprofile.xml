@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/linearlayoutbackground">
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:onClick="onclick"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:id="@+id/edtname"
+            android:background="@drawable/edittextdesign"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:layout_margin="8dp"
+            android:onClick="onclick"
+
+            android:padding="10dp"
+            android:layout_below="@id/edtname"
+            android:id="@+id/edtnumber"
+            android:background="@drawable/edittextdesign"
+            />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:onClick="onclick"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:layout_below="@id/edtnumber"
+            android:id="@+id/edtemail"
+            android:background="@drawable/edittextdesign"
+            />
+        <Button
+            android:background="#3E00B4D4"
+            android:id="@+id/btn_update"
+
+
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+
+            />
+    </RelativeLayout>
+</FrameLayout>

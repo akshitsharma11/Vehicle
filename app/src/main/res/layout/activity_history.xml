@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History"
+    android:background="#eaeff9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Vehicle Details:"
+            android:textColor="#111010"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textview1"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/textview1"
+            android:id="@+id/linearlayout1"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvno"
+                android:text="Vehicle No.-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="8dp"
+                android:id="@+id/txtvehicleno1"
+                android:textColor="#1D1D1D"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linearlayout1"
+            android:id="@+id/ll2"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtoo"
+                android:text="Registering Authority-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:textSize="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="8dp"
+                android:id="@+id/txtrtooffice1"
+                android:textColor="#1D1D1D"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/ll2"
+            android:id="@+id/ll3"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ownername"
+                android:text="Owner Name-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:textSize="20dp"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="8dp"
+
+                android:id="@+id/txtownername1"
+                android:textColor="#1D1D1D"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll3"
+            android:orientation="vertical"
+            android:id="@+id/ll4"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vname"
+                android:text="Maker Model(Fuel Type)-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:textSize="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/txtvehiclename1"
+                android:textColor="#1D1D1D"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/ll4"
+            android:id="@+id/ll5"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vexpiry"
+                android:text="Expiry Date-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:textSize="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:id="@+id/txtexpiry1"
+                android:textColor="#1D1D1D"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll5"
+            android:orientation="vertical"
+            android:id="@+id/ll6"
+            android:background="@drawable/vehicledetailsdesign"
+            android:layout_margin="8dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vinsurance"
+                android:text="Insurance Upto-"
+                android:textColor="#75111010"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:textSize="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/txtfinance1"
+                android:textColor="#1D1D1D"
+
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
+
